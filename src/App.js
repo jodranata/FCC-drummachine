@@ -3,23 +3,8 @@ import React, { useState, useEffect } from 'react';
 import DataKey from './DataKey';
 import './App.css';
 
-export default function App() {
-  const [chord, setChord] = useState('');
-  const playAudio = (elem, audio) => {
-    audio.currentTime = 0;
-    audio.play();
-    elem.classList.add('played');
-    setTimeout(() => {
-      elem.classList.remove('played');
-    }, 100);
-  };
-  const handleClick = e => {
-    const clickElem = e.target;
-    const audio = document.getElementById(e.target.innerText);
-    setChord(clickElem.dataset.chord);
-    playAudio(clickElem, audio);
-  };
-  const keypad = DataKey.map(key => {
+const Keypad = ({ handleClick }) =>
+  DataKey.map(key => {
     return (
       <>
         <button
@@ -36,6 +21,25 @@ export default function App() {
       </>
     );
   });
+
+export default function App() {
+  const [chord, setChord] = useState('');
+
+  const playAudio = (elem, audio) => {
+    audio.currentTime = 0;
+    audio.play();
+    elem.classList.add('played');
+    setTimeout(() => {
+      elem.classList.remove('played');
+    }, 100);
+  };
+
+  const handleClick = e => {
+    const clickElem = e.target;
+    const audio = document.getElementById(e.target.innerText);
+    setChord(clickElem.dataset.chord);
+    playAudio(clickElem, audio);
+  };
 
   const handleKeypress = e => {
     const divID = e.keyCode.toString();
@@ -54,7 +58,9 @@ export default function App() {
   });
   return (
     <div className="app" id="drum-machine">
-      <div className="container">{keypad}</div>
+      <div className="container">
+        <Keypad handleClick={handleClick} />
+      </div>
       <div className="display" id="display">
         {chord}
       </div>

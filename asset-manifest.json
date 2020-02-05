@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/FCC-drummachine/static/css/main.d26c2f14.chunk.css",
+    "main.js": "/FCC-drummachine/static/js/main.1b2b939b.chunk.js",
+    "main.js.map": "/FCC-drummachine/static/js/main.1b2b939b.chunk.js.map",
+    "runtime-main.js": "/FCC-drummachine/static/js/runtime-main.ffda60d3.js",
+    "runtime-main.js.map": "/FCC-drummachine/static/js/runtime-main.ffda60d3.js.map",
+    "static/js/2.b04d56f5.chunk.js": "/FCC-drummachine/static/js/2.b04d56f5.chunk.js",
+    "static/js/2.b04d56f5.chunk.js.map": "/FCC-drummachine/static/js/2.b04d56f5.chunk.js.map",
+    "index.html": "/FCC-drummachine/index.html",
+    "precache-manifest.68c4e1da176515d976649e843c23b7b2.js": "/FCC-drummachine/precache-manifest.68c4e1da176515d976649e843c23b7b2.js",
+    "service-worker.js": "/FCC-drummachine/service-worker.js",
+    "static/css/main.d26c2f14.chunk.css.map": "/FCC-drummachine/static/css/main.d26c2f14.chunk.css.map",
+    "static/js/2.b04d56f5.chunk.js.LICENSE": "/FCC-drummachine/static/js/2.b04d56f5.chunk.js.LICENSE",
+    "static/media/App.css": "/FCC-drummachine/static/media/backgrounddrum.5822ba42.jpg",
+    "static/media/boom.wav": "/FCC-drummachine/static/media/boom.550be808.wav",
+    "static/media/clap.wav": "/FCC-drummachine/static/media/clap.a6e86dd7.wav",
+    "static/media/hihat.wav": "/FCC-drummachine/static/media/hihat.4ba39e07.wav",
+    "static/media/kick.wav": "/FCC-drummachine/static/media/kick.4dd58595.wav",
+    "static/media/openhat.wav": "/FCC-drummachine/static/media/openhat.a62db465.wav",
+    "static/media/ride.wav": "/FCC-drummachine/static/media/ride.b0d70ec5.wav",
+    "static/media/snare.wav": "/FCC-drummachine/static/media/snare.80c4129b.wav",
+    "static/media/tink.wav": "/FCC-drummachine/static/media/tink.2a6bb6f5.wav",
+    "static/media/tom.wav": "/FCC-drummachine/static/media/tom.572ed39d.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffda60d3.js",
+    "static/js/2.b04d56f5.chunk.js",
+    "static/css/main.d26c2f14.chunk.css",
+    "static/js/main.1b2b939b.chunk.js"
+  ]
+}
